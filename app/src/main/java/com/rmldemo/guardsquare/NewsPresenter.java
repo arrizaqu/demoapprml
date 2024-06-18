@@ -1,6 +1,6 @@
-package com.rmldemo.quardsquare;
+package com.rmldemo.guardsquare;
 
-import com.rmldemo.quardsquare.model.NewsArticle;
+import com.rmldemo.guardsquare.model.NewsArticle;
 
 import java.util.List;
 

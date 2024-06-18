@@ -1,12 +1,12 @@
-package com.rmldemo.quardsquare;
+package com.rmldemo.guardsquare;
 
 
 import android.util.Log;
 
-import com.rmldemo.quardsquare.api.NewApiClient;
-import com.rmldemo.quardsquare.model.NewsArticle;
-import com.rmldemo.quardsquare.model.NewsResponse;
-import com.rmldemo.quardsquare.services.NewsApiService;
+import com.rmldemo.guardsquare.api.NewApiClient;
+import com.rmldemo.guardsquare.model.NewsArticle;
+import com.rmldemo.guardsquare.model.NewsResponse;
+import com.rmldemo.guardsquare.services.NewsApiService;
 
 import java.util.List;
 

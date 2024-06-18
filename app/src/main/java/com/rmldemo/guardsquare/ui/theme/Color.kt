@@ -1,4 +1,4 @@
-package com.rmldemo.quardsquare.ui.theme
+package com.rmldemo.guardsquare.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

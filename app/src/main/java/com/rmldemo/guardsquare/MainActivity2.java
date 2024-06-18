@@ -1,22 +1,14 @@
-package com.rmldemo.quardsquare;
+package com.rmldemo.guardsquare;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
-import androidx.lifecycle.ViewModelProvider;
+
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rmldemo.quardsquare.api.NewApiClient;
-import com.rmldemo.quardsquare.model.NewsArticle;
-import com.rmldemo.quardsquare.model.NewsResponse;
-import com.rmldemo.quardsquare.services.NewsApiService;
+import com.rmldemo.guardsquare.model.NewsArticle;
 
 import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity2 extends Activity implements NewsView{
 

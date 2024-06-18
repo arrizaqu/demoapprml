@@ -1,6 +1,6 @@
-package com.rmldemo.quardsquare.api;
+package com.rmldemo.guardsquare.api;
 
-import com.rmldemo.quardsquare.services.NewsApiService;
+import com.rmldemo.guardsquare.services.NewsApiService;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

@@ -1,4 +1,4 @@
-package com.rmldemo.quardsquare;
+package com.rmldemo.guardsquare;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rmldemo.quardsquare.model.NewsArticle;
+import com.rmldemo.guardsquare.model.NewsArticle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     @NonNull
     @Override
     public NewsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_news, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(com.rmldemo.guardsquare.R.layout.item_news, parent, false);
         return new NewsViewHolder(view);
     }
 

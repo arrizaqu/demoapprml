@@ -8,10 +8,20 @@ buildscript {
     repositories {
         google()
         jcenter()
+
+        maven {
+            url=uri( "C:/Users/arriz/OneDrive/Documents/training/traininggs/DexGuard-9.7.0/DexGuard-9.7.0/lib");
+        }
     }
+
     dependencies {
+        classpath("com.guardsquare:dexguard-gradle-plugin:9.7.0")
         classpath("com.android.tools.build:gradle:4.2.0")
         classpath("com.google.gms:google-services:4.3.8")
     }
 }
+
+
+
+
 

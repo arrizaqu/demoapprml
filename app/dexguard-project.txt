@@ -1,0 +1,3 @@
+-raspchecks root, emulator
+-raspcontinueon none
+

@@ -1,4 +1,4 @@
-package com.rmldemo.quardsquare.model;
+package com.rmldemo.guardsquare.model;
 
 import com.google.gson.annotations.SerializedName;
 

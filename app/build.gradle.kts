@@ -1,14 +1,15 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("dexguard")
 }
 
 android {
-    namespace = "com.rmldemo.quardsquare"
+    namespace = "com.rmldemo.guardsquare"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rmldemo.quardsquare"
+        applicationId = "com.rmldemo.guardsquare"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -68,4 +69,20 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
+
+dexguard {
+    path = "C:/Users/arriz/OneDrive/Documents/training/traininggs/DexGuard-9.7.0/DexGuard-9.7.0"
+    license = "C:/Users/arriz/OneDrive/Documents/training/traininggs/DexGuard-9.7.0/DexGuard-9.7.0/dexguard-license.txt"
+    configurations {
+
+        register("release") {
+            defaultConfiguration("dexguard-release-aggressive.pro")
+            defaultConfiguration("dexguard-rasp.pro")
+            configuration("dexguard-project.txt")
+        }
+        register("debug") {
+            defaultConfiguration("dexguard-debug.pro")
+        }
+    }
 }

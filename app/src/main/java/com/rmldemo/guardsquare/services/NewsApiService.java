@@ -1,6 +1,6 @@
-package com.rmldemo.quardsquare.services;
+package com.rmldemo.guardsquare.services;
 
-import com.rmldemo.quardsquare.model.NewsResponse;
+import com.rmldemo.guardsquare.model.NewsResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

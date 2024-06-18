@@ -1,4 +1,4 @@
-package com.rmldemo.quardsquare
+package com.rmldemo.guardsquare
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
